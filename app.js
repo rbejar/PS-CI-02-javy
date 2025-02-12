@@ -13,7 +13,7 @@ app.connectDatabase = () => {
     multipleStatements: true
   });
   con.connect((err) => {
-    if (err) throw err; 
+    if (err) throw err;          
   });
   return con;
 }
